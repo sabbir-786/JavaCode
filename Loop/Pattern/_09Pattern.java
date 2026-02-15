@@ -36,7 +36,7 @@ public class _09Pattern {
          for(int i = 0 ; i<n;i++){
             for(int j= 0;j<n;j++){
 
-                if(j==1 || i>=0 && i == n-(j+1)) {
+                if(j==1 || i>=0 && i == n-(j+2)) {
 
                     System.out.print("* ");
                 }
